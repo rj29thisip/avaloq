@@ -1,4 +1,4 @@
-var baseurl = "http://35.215.149.13:3000/dateInfo";
+var baseurl = "http://localhost:3000/dateInfo";
 function loadDateInfo(){
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("GET",baseurl,true);
