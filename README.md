@@ -1,9 +1,9 @@
 # avaloq
 Frontend: Apache2 (HTML+CSS)
-   - version: v1.0
+   - version: v1.0.0
 
 Backend: NodeJS (JavaScript)
-   - version: v1.0
+   - version: v1.0.0
 
 OS: Ubuntu 16.04
 
@@ -12,7 +12,7 @@ OS: Ubuntu 16.04
    $npm start server.js
    > avaloq@1.0.0 start /opt/webui/avaloq
    > node server.js "server.js"
-   DateInfo API version: v1.0 3000
+   DateInfo API version: v1.0.0 3000
    
 2. Validate by checking running ports (should include 3000 - node)
    $netstat -apnut | grep LISTEN

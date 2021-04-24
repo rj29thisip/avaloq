@@ -24,5 +24,5 @@ async function dateInfo(req, res) {
 setTimeout(dateInfo, 1000);
 
 http.listen(3000,function(){
-  console.log('Server is live on server ' + 3000);
+  console.log('DateInfo API version: v1.0.0 ' + 3000);
 });
