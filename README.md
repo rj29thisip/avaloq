@@ -1,8 +1,10 @@
 # avaloq
 Frontend: Apache2 (HTML+CSS)
    - version: v1.0
+
 Backend: NodeJS (JavaScript)
    - version: v1.0
+   
 OS: Ubuntu 16.04
 
 ## Running Backend
@@ -28,4 +30,3 @@ OS: Ubuntu 16.04
 ## Frontend Results
 1. Date, time, and timezone of the backend server will be displayed
 2. Information will be updated real-time on each load / reload
-
