@@ -4,6 +4,7 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 const cors = require('cors')
+const uri = 'http://localhost:3000/dateInfo';
 
 app.use(cors())
 
@@ -22,6 +23,6 @@ async function dateInfo(req, res) {
 }
 setTimeout(dateInfo, 1000);
 
-http.listen(8081,function(){
-  console.log('Server is live on server ' + 8081);
+http.listen(3000,function(){
+  console.log('Server is live on server ' + 3000);
 });
