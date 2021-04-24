@@ -1,8 +1,10 @@
 # avaloq
 Frontend: Apache2 (HTML+CSS)
    - version: v1.0
+
 Backend: NodeJS (JavaScript)
    - version: v1.0
+
 OS: Ubuntu 16.04
 
 ## Running Backend
